@@ -1,0 +1,44 @@
+html { 
+    background: url(background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+h1, p {
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    color: rgba(212, 211, 211, 0.9);
+    
+}
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    color: rgba(216, 216, 216, 0.8) ;
+}
+
+body {
+    align-content: center;
+    background-color: rgba(113, 142, 164, 0) !important;
+    height:100%;
+}
+
+.buffer {
+    height: 25rem;
+}
+
+.buffer2 {
+    height: 4rem;
+}
+
+.btn, .btn-secondary {
+    width: 200px;
+    background-color: rgba(75, 76, 77, 0.8);
+    border-color: rgba(75, 76, 77, 0.8);
+    font-family: 'Cormorant Garamond', serif;
+}

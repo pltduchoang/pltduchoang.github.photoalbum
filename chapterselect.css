@@ -1,0 +1,57 @@
+html, body { 
+    background: url(chapterselect.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+h1, p {
+}
+
+h2 , p {
+    font-family: 'Pacifico', cursive;
+    color: rgba(244, 245, 245, 0.9);
+    font-size: 2em;
+    text-align: center;
+    padding: 1em;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    color: rgba(216, 216, 216, 0.8) ;
+}
+
+body {
+    background-color: rgba(113, 142, 164, 0) !important;
+}
+
+.container {
+    margin: 2rem 3rem 2rem 3rem !important;
+}
+
+.imagesection {
+    display: flexbox;
+    flex-wrap: wrap;
+}
+
+.btn {
+    width: 200px;
+    background-color: rgba(75, 76, 77, 0.9);
+    border-color: rgba(75, 76, 77, 0.9);
+    font-family: 'Cormorant Garamond', serif;
+}
+
+img {
+    width: 550px !important;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 4px;
+    border-color: rgba(244, 245, 245, 0.9);
+    background-color: rgba(244, 245, 245, 0.7);
+}
